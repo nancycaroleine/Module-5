@@ -22,11 +22,25 @@ To write a Python code to create a class for a person with a parameterized const
 ---
 
 ### PROGRAM
+212223060181
 
+NANCY
 ```
-
+class employee:
+    def __init__(self,id,name):
+        self.id = id
+        self.name = name
+    def display(self):
+        print("Hello my id is :",self.id)
+        print("My name is :",self.name)
+id = int(input())
+name = input()
+res = employee(id,name)
+res.display()
 ```
 
 ### OUTPUT
+<img width="769" height="219" alt="image" src="https://github.com/user-attachments/assets/54d5f67d-936a-495a-b06f-1c8697f12a40" />
 
 ### RESULT
+Thus,a Python code to create a class for a person with a parameterized constructor are verified.
